@@ -1,7 +1,5 @@
 import 'dart:async';
 
-import 'dart:async';
-
 StreamController<int> _controller = StreamController.broadcast();
 Stream<int> get out => _controller.stream;
 
